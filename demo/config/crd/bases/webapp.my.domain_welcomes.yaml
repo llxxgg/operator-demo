@@ -40,9 +40,7 @@ spec:
             description: WelcomeSpec defines the desired state of Welcome
             properties:
               name:
-                description: |-
-                  Foo is an example field of Welcome. Edit welcome_types.go to remove/update
-                  Foo string `json:"foo,omitempty"`
+                description: Name string `json:"foo,omitempty"`
                 type: string
             type: object
           status:
